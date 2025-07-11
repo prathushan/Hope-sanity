@@ -1,10 +1,8 @@
-import { FaImage } from 'react-icons/fa'
 
 export default {
   name: 'imageWithText',
   title: 'Image / Video with Text',
   type: 'object',
-  icon: FaImage,
   fields: [
     {
       name: 'mediaType',
