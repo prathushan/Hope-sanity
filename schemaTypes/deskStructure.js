@@ -9,7 +9,8 @@ import {
   FaVideo ,
   FaBlog,
   FaEnvelopeOpenText,
-  FaClock
+  FaClock,
+  FaUsers
 } from 'react-icons/fa'
 
 export default (S) =>
@@ -78,6 +79,11 @@ export default (S) =>
        .title('Blogs')
        .icon(FaBlog)
        .child(S.documentTypeList('post').title('Blogs')),
+
+       S.listItem()
+       .title('Hope Groups')
+       .icon(FaUsers)
+       .child(S.documentTypeList('hopeGroup').title('Hope Groups')),
 
        S.listItem()
        .title('countdown')
