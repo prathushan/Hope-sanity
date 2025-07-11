@@ -22,6 +22,7 @@ import event from './event'
 import eventRegistration from './eventRegistration'
 import message from './message'
 import contactRegistration from './contactRegistration'
+import imageWithText from './blocks/imageWithText'
 
 export const schemaTypes = [
   siteSettings,
@@ -42,5 +43,6 @@ export const schemaTypes = [
   eventRegistration,
   category,
   message,
-  contactRegistration
+  contactRegistration,
+  imageWithText
 ]

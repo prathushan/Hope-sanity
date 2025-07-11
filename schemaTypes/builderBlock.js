@@ -37,7 +37,12 @@ export default {
         {
           type: 'cardSection',
           title: 'Card Section'
+        },
+        {
+          type:'imageWithText',
+          title:'Image with Text'
         }
+
       ]
     }
   ]
