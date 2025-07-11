@@ -23,6 +23,7 @@ import eventRegistration from './eventRegistration'
 import message from './message'
 import contactRegistration from './contactRegistration'
 import imageWithText from './blocks/imageWithText'
+import liveService from './liveService'
 
 export const schemaTypes = [
   siteSettings,
@@ -44,5 +45,6 @@ export const schemaTypes = [
   category,
   message,
   contactRegistration,
-  imageWithText
+  imageWithText,
+  liveService
 ]

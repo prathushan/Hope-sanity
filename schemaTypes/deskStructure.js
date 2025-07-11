@@ -8,7 +8,8 @@ import {
   FaClipboardList,
   FaVideo ,
   FaBlog,
-  FaEnvelopeOpenText
+  FaEnvelopeOpenText,
+  FaClock
 } from 'react-icons/fa'
 
 export default (S) =>
@@ -77,6 +78,15 @@ export default (S) =>
        .title('Blogs')
        .icon(FaBlog)
        .child(S.documentTypeList('post').title('Blogs')),
+
+       S.listItem()
+       .title('countdown')
+       .icon(FaClock)
+       .child(
+       S.editor()
+       .schemaType('liveService')
+       .documentId('liveService')
+  ),
 
       S.divider(),
 
