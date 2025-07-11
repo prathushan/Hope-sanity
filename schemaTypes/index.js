@@ -9,10 +9,6 @@ import textBlock from './blocks/textBlock'
 import imageBlock from './blocks/imageBlock'
 import videoBlock from './blocks/videoBlock'
 import buttonBlock from './blocks/buttonBlock'
-import columnsBlock from './blocks/columnsBlock'
-import containerBlock from './blocks/containerBlock'
-import headingBlock from './blocks/headingBlock'
-import spacerBlock from './blocks/spacerBlock'
 import footerSetting from './footerSettings'
 import menu from './blocks/menu'
 import menuitem from './blocks/menuitem'
@@ -40,10 +36,6 @@ export const schemaTypes = [
   imageBlock,
   videoBlock,
   buttonBlock,
-  columnsBlock,
-  containerBlock,
-  headingBlock,
-  spacerBlock,
   cardSection,
   // mediaAsset,
   event,

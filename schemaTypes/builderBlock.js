@@ -35,28 +35,8 @@ export default {
           title: 'Button Block'
         },
         {
-          type: 'columnBlock',
-          title: 'Column Block'
-        },
-        {
-          type: 'containerBlock',
-          title: 'Container Block'
-        },
-        {
-          type: 'headingBlock',
-          title: 'Heading Block'
-        },
-        {
-          type: 'spacerBlock',
-          title: 'Spacer Block'
-        },
-        {
           type: 'cardSection',
           title: 'Card Section'
-        },
-        {
-          type: 'post',
-          title: 'Blogs'
         }
       ]
     }
