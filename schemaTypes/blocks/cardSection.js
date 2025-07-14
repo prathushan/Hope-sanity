@@ -24,16 +24,6 @@ export default {
               options: { hotspot: true },
             },
             {
-              name: 'svgIcon',
-              title: 'SVG Icon',
-              type: 'code',
-              options: {
-                language: 'html',
-                theme: 'github',
-              },
-              description: 'Paste raw SVG code here (will override image if both are used).'
-            },
-            {
               name: 'title',
               title: 'Card Title',
               type: 'string',
