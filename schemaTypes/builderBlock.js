@@ -41,6 +41,10 @@ export default {
         {
           type:'imageWithText',
           title:'Image with Text'
+        },
+        {
+          type:'faqSection',
+          title:'FAQ Section'
         }
 
       ]

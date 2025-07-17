@@ -25,6 +25,7 @@ import contactRegistration from './contactRegistration'
 import imageWithText from './blocks/imageWithText'
 import liveService from './liveService'
 import hopeGroup from './hopeGroup'
+import faqSection from './blocks/faqSection'
 
 export const schemaTypes = [
   siteSettings,
@@ -48,5 +49,6 @@ export const schemaTypes = [
   contactRegistration,
   imageWithText,
   liveService,
-  hopeGroup
+  hopeGroup,
+  faqSection
 ]
